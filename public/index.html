@@ -1,77 +1,174 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
     <title>DevOps Glossary</title>
-</head>
+  </head>
 
-<body class="bg-dark text-white">
-
+  <body class="bg-dark text-white">
     <div class="container">
-        <div class="row">
-            <h3 class="text-center my-5">Welcome to DevOps Glossary</h3>
-            <hr>
-            <div class="intro my-3">
-                <h5 class="text-center my-3">Introduction</h5>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod nesciunt, rem eligendi doloremque
-                    impedit assumenda reprehenderit iure quis sequi? Alias saepe ad et ratione perspiciatis. Dolores
-                    magni asperndelectus tempore veritatis fuga consequatur libero rerum veniam rem eos
-                    aliquid illo ut illum, natus odit! Officiis eligendi dolorum totam vel doloribus harum quasi
-                    consectetur eveniet, culpa similique ea cumque facere recusandae nulla.</p>
-            </div>
-            <hr>
-            <div class="glossary-table">
-                <table class="table table-dark">
-                    <thead>
-                      <tr>
-                        <th scope="col">Id</th>
-                        <th scope="col">Term</th>
-                        <th scope="col">Description</th>
-                        <th scope="col">Handle</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td colspan="2">Larry the Bird</td>
-                        <td>@twitter</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>DevOps</td>
-                        <td>It is combined word</td>
-                        <td>references</td>
-                      </tr>
-                    </tbody>
-                  </table>
-            </div>
-            <hr>
+      <div class="row">
+        <h3 class="text-center my-5">
+          SIT 722 - Software deployment and operations
+        </h3>
+        <hr />
+        <div class="intro my-3">
+          <h5 class="text-center my-3">Welcome to DevOps Glossary</h5>
+          <p>
+            Below is the collection of DevOps related terms and brief descripton
+            with references.
+          </p>
         </div>
+        <hr />
+        <div class="glossary-table">
+          <table class="table table-dark">
+            <thead>
+              <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Term</th>
+                <th scope="col">Description</th>
+                <th scope="col">References</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>DevOps</td>
+                <td>
+                  DevOps refers to a collection of methods that combines software development (Dev) with IT operations (Ops) in order to improve collaboration and automate the software delivery process. Its goal is to reduce development cycles and improve deployment frequency while maintaining software quality and reliability.
+                </td>
+                <td>
+                  Amazon Web Services. (n.d.). What is DevOps? AWS. <a href="https://aws.amazon.com/devops/what-is-devops/" target="blank">https://aws.amazon.com/devops/what-is-devops/</a>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">2</th>
+                <td>Git</td>
+                <td>
+                  Git is a version control system that track changes in the code, and manage various versions. It supports collaborative software development with capabilities such as branching, merging, and remote repositories.
+                </td>
+                <td>
+                  Git. (n.d.). About Git. <a href="https://git-scm.com/about" target="blank">https://git-scm.com/about</a>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">3</th>
+                <td>Microservices</td>
+                <td>
+                  Instead of building one monolithic application, a microservices architecture breaks up an application into smaller, independent services. Each microservice focuses on performing a specific task or business function.The microservices communicate and collaborate by calling each other's APIs. </td>
+                <td>
+                  Understanding microservices. (n.d.). www.redhat.com. <a href="https://www.redhat.com/en/topics/microservices" target="blank">https://www.redhat.com/en/topics/microservices</a>
+              </tr>
+
+              <tr>
+                <th scope="row">4</th>
+                <td>Agile methodology</td>
+                <td>
+                  Agile methodology is an approach to project management that focuses on iterative development, responsive planning and continuous improvement. Agile methodologies are often used in conjunction with DevOps to improve the development and deployment of software.
+                </td>
+                <td>
+                  Atlassian. (n.d.). Agile. <a href="https://www.atlassian.com/agile" target="blank">https://www.atlassian.com/agile</a>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">5</th>
+                <td>SDLC</td>
+                <td>
+                  SDLC stands for Software Development Life Cycle. SDLC is a process for developing software that includes planning, design, development, testing, deployment, and maintenance.
+                </td>
+                <td>
+                  Amazon. (n.d.). What is SDLC? - Software Development Lifecycle Explained - AWS. Amazon Web Services, Inc. <a href="https://aws.amazon.com/what-is/sdlc/"" target="blank">https://aws.amazon.com/what-is/sdlc/</a>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">6</th>
+                <td>Kubernetes</td>
+                <td>
+                  Kubernetes is an open source framework for managing containerized workloads and services that allows for declarative configuration as well as automation. It has a wide and quickly expanding ecosystem. Services, support, and tools for Kubernetes are widely available.
+                </td>
+                <td>
+                  Kubernetes. (n.d.). What is Kubernetes? Kubernetes. <a href="https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/" target="blank">https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/</a>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">7</th>
+                <td>Wall of Confusion</td>
+                <td>
+                  The Wall of Confusion is a metaphor for the challenges and misunderstandings that might occur during the software development process between the development and operations teams. This
+                  misunderstanding can lead to inefficiencies, delays, and
+                  quality issues.
+                </td>
+                <td>
+                  Kawaguchi, S. (2021). The Wall of Confusion. Retrieved from
+                  <a href="https://levelup.gitconnected.com/the-wall-of-confusion-623057a4dd26" target="blank">https://levelup.gitconnected.com/the-wall-of-confusion-623057a4dd26
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">8</th>
+                <td>Cloud</td>
+                <td>
+                  The cloud is a term used to describe the delivery of hosted services over the internet. Cloud services can include computing, storage, and networking resources. Organizations can use cloud services to access resources on-demand and scale them up or down as necessary.
+                </td>
+                <td>
+                  Jake Franken Field (2023, April 05). What is Cloud Computing?
+                  Pros and Cons of Different Types of Services. Investopedia.
+                  Retrieved from
+                  <a
+                    href="https://www.investopedia.com/terms/c/cloud-computing.asp"
+                    target="blank"
+                    >https://www.investopedia.com/terms/c/cloud-computing.asp</a
+                  >
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">9</th>
+                <td>Docker</td>
+                <td>
+                  Using the Docker, one can combine an application's dependencies with other files to create a single image called a container. Application deployment and operation in many settings are made simple by this. Containers ensure consistency across different environments, making deployment easier and more scalable.
+                </td>
+                <td>
+                  What is Docker? | IBM. (n.d.). www.ibm.com. <a href="https://www.ibm.com/topics/docker" target="blank">https://www.ibm.com/topics/docker</a>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">10</th>
+                <td>Node.js</td>
+                <td>
+                  Node.js is a backend runtime environment of Javascript that can run JS code outside of a browser. Web applications and server-side apps are frequently created with Node.js.
+                </td>
+                <td>
+                  Node.js Foundation. (n.d.). About Node.js. <a href="https://nodejs.org/en/about/" target="blank">https://nodejs.org/en/about/</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <hr />
+      </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
