@@ -1,0 +1,142 @@
+[
+    {
+        "id" : 1,
+        "term" : "DevOps",
+        "desc" : "DevOps refers to a collection of methods that combines software development (Dev) with IT operations (Ops) in order to improve collaboration and automate the software delivery process. Its goal is to reduce development cycles and improve deployment frequency while maintaining software quality and reliability.",
+        "ref_text" : "Amazon Web Services. (n.d.). What is DevOps? AWS.",
+        "ref_link" : "https://aws.amazon.com/devops/what-is-devops/"
+    },
+    {
+        "id" : 2,
+        "term" : "Git",
+        "desc" : "Git is a version control system that track changes in the code, and manage various versions. It supports collaborative software development with capabilities such as branching, merging, and remote repositories.",
+        "ref_text" : "Git. (n.d.). About Git.",
+        "ref_link" : "https://git-scm.com/about"
+    },    
+    {
+        "id" : 3,
+        "term" : "Microservices",
+        "desc" : "Instead of building one monolithic application, a microservices architecture breaks up an application into smaller, independent services. Each microservice focuses on performing a specific task or business function.The microservices communicate and collaborate by calling each other's APIs.",
+        "ref_text" : "Understanding microservices. (n.d.). www.redhat.com.",
+        "ref_link" : "https://www.redhat.com/en/topics/microservices"
+    },
+    {
+        "id" : 4,
+        "term" : "Agile Methodology",
+        "desc" : "Agile methodology is an approach to project management that focuses on iterative development, responsive planning and continuous improvement. Agile methodologies are often used in conjunction with DevOps to improve the development and deployment of software.",
+        "ref_text" : "Amazon Web Services. (n.d.). What is DevOps? AWS.",
+        "ref_link" : "https://aws.amazon.com/devops/what-is-devops/"
+    },
+    {
+        "id" : 5,
+        "term" : "DevOps",
+        "desc" : "DevOps refers to a collection of methods that combines software development (Dev) with IT operations (Ops) in order to improve collaboration and automate the software delivery process. Its goal is to reduce development cycles and improve deployment frequency while maintaining software quality and reliability.",
+        "ref_text" : "Amazon Web Services. (n.d.). What is DevOps? AWS.",
+        "ref_link" : "https://aws.amazon.com/devops/what-is-devops/"
+    },
+    {
+        "id" : 6,
+        "term" : "DevOps",
+        "desc" : "DevOps refers to a collection of methods that combines software development (Dev) with IT operations (Ops) in order to improve collaboration and automate the software delivery process. Its goal is to reduce development cycles and improve deployment frequency while maintaining software quality and reliability.",
+        "ref_text" : "Amazon Web Services. (n.d.). What is DevOps? AWS.",
+        "ref_link" : "https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/"
+    },
+    {
+        "id" : 7,
+        "term" : "Wall of Confusion",
+        "desc" : "The Wall of Confusion is a metaphor for the challenges and misunderstandings that might occur during the software development process between the development and operations teams. This misunderstanding can lead to inefficiencies, delays, and quality issues.",
+        "ref_text" : "https://levelup.gitconnected.com/the-wall-of-confusion-623057a4dd26",
+        "ref_link" : "https://levelup.gitconnected.com/the-wall-of-confusion-623057a4dd26"
+    },
+    {
+        "id" : 8,
+        "term" : "Cloud",
+        "desc" : "The cloud is a term used to describe the delivery of hosted services over the internet. Cloud services can include computing, storage, and networking resources. Organizations can use cloud services to access resources on-demand and scale them up or down as necessary.",
+        "ref_text" : "https://www.investopedia.com/terms/c/cloud-computing.asp",
+        "ref_link" : "https://www.investopedia.com/terms/c/cloud-computing.asp"
+    },
+    {
+        "id" : 9,
+        "term" : "Docker",
+        "desc" : "Using the Docker, one can combine an application's dependencies with other files to create a single image called a container. Application deployment and operation in many settings are made simple by this. Containers ensure consistency across different environments, making deployment easier and more scalable.",
+        "ref_text" : "https://www.ibm.com/topics/docker",
+        "ref_link" : "https://www.ibm.com/topics/docker"
+    },
+    {
+        "id" : 10,
+        "term" : "Node.js",
+        "desc" : "Node.js is a backend runtime environment of Javascript that can run JS code outside of a browser. Web applications and server-side apps are frequently created with Node.js.",
+        "ref_text" : "https://nodejs.org/en/about/",
+        "ref_link" : "https://nodejs.org/en/about/"
+    },
+    {
+        "id" : 11,
+        "term" : "Customer Experience",
+        "desc" : "Customer experience refers to the overall perception and satisfaction of users with a product or service, impacting loyalty and business success..",
+        "ref_text" : "Bordeaux, J. (2021). What Is Customer Experience? (And Why It’s So Important). Hubspot.com. ",
+        "ref_link" : "https://blog.hubspot.com/service/what-is-customer-experience"
+    },
+    {
+        "id" : 12,
+        "term" : "Technical Debt",
+        "desc" : "Technical debt represents the accumulated cost of shortcuts or suboptimal solutions in software development, leading to future maintenance challenges.",
+        "ref_text" : "Technical debt: how to measure and manage it with DevOps. (2022, February 28). CircleCI.",
+        "ref_link" : "https://circleci.com/blog/manage-and-measure-technical-debt/"
+    },
+    {
+        "id" : 13,
+        "term" : "COTS software",
+        "desc" : "Commercial Off-The-Shelf (COTS) software refers to pre-built, ready-to-use software solutions that can be integrated into a system to fulfill specific needs.",
+        "ref_text" : "What is COTS, MOTS, GOTS and NOTS? | Definition from TechTarget. (n.d.). Data Center.",
+        "ref_link" : "https://www.techtarget.com/searchdatacenter/definition/COTS-MOTS-GOTS-and-NOTS"
+    },
+    {
+        "id" : 14,
+        "term" : "Google Cloud",
+        "desc" : "Google Cloud is Google's cloud infrastructure, providing computing resources and services for applications, data storage, and analytics.",
+        "ref_text" : "Wikipedia Contributors. (2019, October 11). Google Cloud Platform. Wikipedia; Wikimedia Foundation.",
+        "ref_link" : "https://en.wikipedia.org/wiki/Google_Cloud_Platform"
+    },
+    {
+        "id" : 15,
+        "term" : "Minimum Viable Product",
+        "desc" : "A Minimum Viable Product (MVP) is the simplest version of a product that includes core features, allowing for early testing and validation with users.",
+        "ref_text" : "ProductPlan. (2022). What is a Minimum Viable Product (MVP)? | A Product Mgmt Definition. Www.productplan.com.",
+        "ref_link" : "https://www.productplan.com/glossary/minimum-viable-product/"
+    },
+    {
+        "id" : 16,
+        "term" : "Everything as a Code",
+        "desc" : "Everything-as-Code refers to the practice of representing infrastructure, configurations, and processes as code, enabling automation and consistency.",
+        "ref_text" : "Deploy, O. (n.d.). What is Everything as Code? Octopus Deploy.",
+        "ref_link" : "https://octopus.com/blog/what-is-everything-as-code#:~:text=Everything%20as%20Code%20(EaC)%20is"
+    },
+    {
+        "id" : 17,
+        "term" : "Source Code Management",
+        "desc" : "SCM involves the systematic management of source code throughout its lifecycle, enabling version control, collaboration, and traceability in software development.",
+        "ref_text" : "Atlassian. (n.d.). Source Code Management | Atlassian Git Tutorial. Atlassian.",
+        "ref_link" : "https://www.atlassian.com/git/tutorials/source-code-management#:~:text=Source%20code%20management%20(SCM)%20is"
+    },
+    {
+        "id" : 18,
+        "term" : "Azure",
+        "desc" : "Azure is Microsoft's cloud computing platform, offering a range of services for building, deploying, and managing applications and services.",
+        "ref_text" : "Jha, S. (2023, January 27). What is Azure and How Does It Work? Simplilearn.com.",
+        "ref_link" : "https://www.simplilearn.com/tutorials/azure-tutorial/what-is-azure"
+    },
+    {
+        "id" : 19,
+        "term" : "Rapid deployment",
+        "desc" : "Rapid deployment refers to the practice of quickly and efficiently delivering software updates or new features to production environments, ensuring agility and user satisfaction.",
+        "ref_text" : "Atlassian. (n.d.-b). What is DevOps? Atlassian. Retrieved August 6, 2023, from",
+        "ref_link" : "https://www.atlassian.com/devops#:~:text=where%20it%20runs."
+    },
+    {
+        "id" : 20,
+        "term" : "Infrastructure as Code",
+        "desc" : "IaC involves managing and provisioning infrastructure using code and automation tools. Infrastructure components are defined in code, enabling consistent, scalable, and reproducible deployments.",
+        "ref_text" : "What is Infrastructure as Code (IaC)? (n.d.). Www.redhat.com.",
+        "ref_link" : "https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac#:~:text=choose%20Red%20Hat%3F-"
+    }
+]
