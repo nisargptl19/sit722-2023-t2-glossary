@@ -138,5 +138,75 @@
         "desc" : "IaC involves managing and provisioning infrastructure using code and automation tools. Infrastructure components are defined in code, enabling consistent, scalable, and reproducible deployments.",
         "ref_text" : "What is Infrastructure as Code (IaC)? (n.d.). Www.redhat.com.",
         "ref_link" : "https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac#:~:text=choose%20Red%20Hat%3F-"
+    },
+    {
+        "id" : 21,
+        "term" : "SDK",
+        "desc" : "Software Development Kit, a set of tools and resources for building software applications for a specific platform.",
+        "ref_text" : "Microsoft. (n.d.). Introduction to SDKs. ",
+        "ref_link" : "https://docs.microsoft.com/en-us/dotnet/core/introduction"
+    },
+    {
+        "id" : 22,
+        "term" : "Containerisation",
+        "desc" : "Process of packaging and deploying applications with their dependencies in isolated environments called containers.",
+        "ref_text" : "Docker. (n.d.). What is Containerization? ",
+        "ref_link" : "https://www.docker.com/resources/what-containerization"
+    },
+    {
+        "id" : 23,
+        "term" : "Separation of Responsibility",
+        "desc" : "Principle in DevOps where distinct roles and teams have defined responsibilities, promoting efficiency and accountability.",
+        "ref_text" : "Chen, T. (2018). DevOps for Developers. Apress.",
+        "ref_link" : "https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac#:~:text=choose%20Red%20Hat%3F-"
+    },
+    {
+        "id" : 24,
+        "term" : "YAML File",
+        "desc" : "YAML (YAML Ain't Markup Language) is a human-readable data serialization format used for configuration files in DevOps processes, allowing easy representation of structured data.",
+        "ref_text" : "What is Infrastructure as Code (IaC)? (n.d.). Www.redhat.com.",
+        "ref_link" : "https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac#:~:text=choose%20Red%20Hat%3F-"
+    },
+    {
+        "id" : 25,
+        "term" : "Docker Run",
+        "desc" : "Docker Run is a command used in the Docker platform to start and run a container from a specified Docker image, configuring runtime options and environments.",
+        "ref_text" : "Docker. (n.d.). Run Docker. ",
+        "ref_link" : "https://docs.docker.com/engine/reference/commandline/run/"
+    },
+    {
+        "id" : 26,
+        "term" : "Docker Compose",
+        "desc" : "Docker Compose is a tool for defining and running multi-container Docker applications, utilizing a YAML file to configure services, networks, and volumes.",
+        "ref_text" : "Docker. (n.d.). Compose Command. ",
+        "ref_link" : "https://docs.docker.com/compose/reference/"
+    },
+    {
+        "id" : 27,
+        "term" : "Independently Deployable",
+        "desc" : "Independently Deployable is a DevOps practice where individual components or microservices of an application can be developed, tested, and deployed separately for increased agility.",
+        "ref_text" : "Fowler, M. (2014). Microservices. ",
+        "ref_link" : "https://martinfowler.com/articles/microservices.html"
+    },
+    {
+        "id" : 28, 
+        "term" : "Serverless Computing",
+        "desc" : "Serverless Computing is a cloud computing model where developers focus on writing code without managing the underlying infrastructure, as the cloud provider handles resource allocation dynamically.",
+        "ref_text" : "WWhat is serverless computing? |  Serverless definition | Cloudflare. (n.d.). Cloudflare.",
+        "ref_link" : "https://www.cloudflare.com/learning/serverless/what-is-serverless/"
+    },
+    {
+        "id" : 29,
+        "term" : "Nodemon",
+        "desc" : "Nodemon is a utility for Node.js applications that automatically restarts the server upon detecting changes in the source code, aiding in the development and debugging process.",
+        "ref_text" : "Nodemon. (n.d.). GitHub Repository. ",
+        "ref_link" : "https://github.com/remy/nodemon"
+    },
+    {
+        "id" : 30,
+        "term" : "Bind Mount",
+        "desc" : "Bind Mount is a feature in containerization platforms like Docker, allowing specific files or directories on the host system to be mounted into a container, providing shared access.",
+        "ref_text" : "Docker. (n.d.). Use Volumes. ",
+        "ref_link" : "https://docs.docker.com/storage/volumes/"
     }
 ]
