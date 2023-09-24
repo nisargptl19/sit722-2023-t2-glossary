@@ -192,7 +192,7 @@
     "id": 28,
     "term": "Serverless Computing",
     "desc": "Serverless Computing is a cloud computing model where developers focus on writing code without managing the underlying infrastructure, as the cloud provider handles resource allocation dynamically.",
-    "ref_text": "WWhat is serverless computing? |  Serverless definition | Cloudflare. (n.d.). Cloudflare.",
+    "ref_text": "What is serverless computing? |  Serverless definition | Cloudflare. (n.d.). Cloudflare.",
     "ref_link": "https://www.cloudflare.com/learning/serverless/what-is-serverless/"
   },
   {
@@ -278,5 +278,75 @@
     "desc": "Version Tagging involves labeling code or software releases with unique identifiers to track and reference specific versions, making it easier to manage and identify changes.",
     "ref_text": "Git. (n.d.). Git Basics - Tagging.",
     "ref_link": "https://git-scm.com/book/en/v2/Git-Basics-Tagging"
+  },
+  {
+    "id": 41,
+    "term": "Observability",
+    "desc": "Observability in DevOps refers to the ability to monitor and gain insights into the behavior of systems, applications, and infrastructure to facilitate troubleshooting and performance optimization.",
+    "ref_text": "DevOps measurement: Monitoring and observability | Cloud Architecture Center. (n.d.). Google Cloud. Retrieved September 24, 2023, ",
+    "ref_link": " https://cloud.google.com/architecture/devops/devops-measurement-monitoring-and-observability"
+  },
+  {
+    "id": 42,
+    "term": "Change Management",
+    "desc": "Change management in DevOps involves planning, controlling, and tracking changes to infrastructure, code, and processes to ensure they are implemented smoothly without disrupting operations.",
+    "ref_text": "Change management. Atlassian.",
+    "ref_link": "https://www.atlassian.com/itsm/change-management"
+  },
+  {
+    "id": 43,
+    "term": "Disaster Recovery",
+    "desc": "Disaster recovery in DevOps focuses on planning and executing strategies to recover data, applications, and systems in the event of a disaster or unexpected outage.",
+    "ref_text": "What is Disaster Recovery? (n.d.). Google Cloud. ",
+    "ref_link": "https://cloud.google.com/learn/what-is-disaster-recovery"
+  },
+  {
+    "id": 44,
+    "term": "Configuration as Code",
+    "desc": "Configuration as Code (CaC) is an approach that treats configuration settings for infrastructure and applications as code, enabling version control, automation, and consistency in deployment.",
+    "ref_text": "Configuration as Code: How to Streamline Your Pipeline. (n.d.). Perforce Software",
+    "ref_link": "https://www.perforce.com/blog/vcs/configuration-as-code"
+  },
+  {
+    "id": 45,
+    "term": "Compliance as Code",
+    "desc": "Compliance as Code (CaaC) extends Configuration as Code (CaC) to ensure that infrastructure and applications adhere to regulatory and compliance standards through automated checks and policies.",
+    "ref_text": "Decoder: Compliance as code. (n.d.). Thoughtworks. ",
+    "ref_link": "https://www.thoughtworks.com/en-au/insights/decoder/c/compliance-as-code"
+  },
+  {
+    "id": 46,
+    "term": "DevOps Dashboard",
+    "desc": "A DevOps dashboard is a visual tool that provides real-time insights into the status and performance of various DevOps processes, such as CI/CD pipelines, monitoring, and incident tracking.",
+    "ref_text": "DevOps Dashboards: Tools, Template, and How to Create One. (n.d.). Www.knowledgehut.com.",
+    "ref_link": "https://www.knowledgehut.com/blog/devops/devops-dashboard"
+  },
+  {
+    "id": 47,
+    "term": "Postmortem Analysis",
+    "desc": "Postmortem analysis, often known as a post-incident review, is a practice in DevOps where teams assess the root causes of incidents or outages to learn from them and prevent future occurrences.",
+    "ref_text": "DevOps Postmortems: Why and How to Use Them - DZone. (n.d.). Dzone.com. Retrieved September 24, 2023,",
+    "ref_link": " https://dzone.com/articles/devops-postmortems-why-and-how-to-use-them"
+  },
+  {
+    "id": 48,
+    "term": "Shift-Left Testing",
+    "desc": "Shift-Left Testing is a testing approach in DevOps where testing activities are moved earlier in the development cycle, enabling early detection and resolution of issues.",
+    "ref_text": "Gunja, S. (2022, October 27). Shift left vs shift right: A DevOps mystery solved. Dynatrace News.",
+    "ref_link": " https://www.dynatrace.com/news/blog/what-is-shift-left-and-what-is-shift-right"
+  },
+  {
+    "id": 49,
+    "term": "Configuration Management Database (CMDB)",
+    "desc": "A Configuration Management Database (CMDB) is a centralized database that stores information about an organization's hardware and software assets, facilitating effective configuration management.",
+    "ref_text": "What is a CMDB (Configuration Management Database)? (n.d.). SearchDataCenter.",
+    "ref_link": " https://www.techtarget.com/searchdatacenter/definition/configuration-management-database"
+  },
+  {
+    "id": 50,
+    "term": "Trunk-Based Development",
+    "desc": "Trunk-Based Development is a software development approach in which all developers work on a single codebase, or 'trunk,' promoting frequent integration and minimizing long-lived branches.",
+    "ref_text": "Atlassian. (n.d.). Trunk-based Development. Atlassian.",
+    "ref_link": "https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development"
   }
 ]
